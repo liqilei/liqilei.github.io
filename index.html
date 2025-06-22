@@ -1,10 +1,332 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Meta Tag</title>
-      <meta http-equiv = "refresh" content = "0; url = https://li.qilei.me" />
-   </head>
-   <body>
-      <p></p>
-   </body>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Qilei Li</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qilei Li">
+    <meta name="author" content="Qilei Li">
+
+    <meta name="keywords" content="Qilei Li, Q. Li" />
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./prettify.css" rel="stylesheet">
+    <link href="./css/docs.css" rel="stylesheet">
+    <link href="./css/aux.css" rel="stylesheet">
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="./images/icon/fav.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+
+</head>
+
+<body>
+
+    <!-- Navigation ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top content_width_range">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse"
+                    data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="#">Qilei Li</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="#"><strong>Home</strong></a></li>
+                        <li><a href="./publications.html"><strong>Publications</strong></a></li>
+                        <li><a href="./services.html"><strong>Services</strong></a></li>
+                        <!-- <li><a href="./news.html"><strong>News</strong></a></li> -->
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </div>
+    </div>
+
+
+    <!-- Profile Image & About Me ================================================== -->
+    <div class="container">
+        <div class="container-fluid content_width_range">
+            <div class="row-fluid basic_info">
+                <!-- Profile Image and Text -->
+                <div class="span2">
+                    <ul class="">
+                        <div style="text-align: center;">
+                            <img style="width: 100%;" src="./images/qilei.jpg" alt="Qilei Li" />
+                            <h3>Qilei Li</h3>
+                            <p><a href="mailto:qilei@ieee.org">qilei@ieee.org</a></p>
+                        </div>
+                    </ul>
+                    <div style="text-align: center;">
+                        <a class="label_download"
+                            href="https://scholar.google.com.hk/citations?hl=en&user=BIUlY6AAAAAJ&view_op=list_works">Google
+                            Scholar</a>
+                        <a class="label_download" href="https://www.researchgate.net/profile/Qilei-Li">ResearchGate</a>
+                        <br>
+                        <a class="label_download" href="https://orcid.org/my-orcid?orcid=0000-0002-9675-9016">ORCID</a>
+                        <a class="label_download" href="https://github.com/liqilei">GitHub</a>
+                        <br>
+                    </div>
+                </div>
+
+                <!-- About Me -->
+                <div class="span7">
+                    <div class="aboutme">
+
+                        <p>
+                            Qilei (Kevin) Li is a post-doc researcher
+                            at <a href="https://sayed-sys-lab.github.io/">SAYED Systems Group</a>,
+                            working with <a href="https://eecs.qmul.ac.uk/~ahmed/">Dr. Ahmed Sayed</a>.
+                            He has a Ph.D. in Computer Science from <a href="http://eecs.qmul.ac.uk/">Queen Mary
+                                University of London</a>,
+                            supervised by <a href="http://www.eecs.qmul.ac.uk/~sgg/">Prof. Shaogang (Sean) Gong
+                                FREng</a>.
+                            He previously earned an M.S. degree from Sichuan University in 2020.
+                            From June 2022 to April 2024,
+                            he worked as a machine learning scientist at <a href="https://www.veritone.com/">Veritone
+                                Inc</a>,
+                            where he focused on developing a scalable <a
+                                href="https://www.veritone.com/applications/tracker/">person search framework</a>
+                            for retrieving individuals at different locations and times,
+                            as captured by various cameras.
+                            His current research interests lie in <a href="https://kuber.org.uk/">privacy-aware distributed machine
+                                learning</a>,
+                            with a particular emphasis on learning domain-invariant knowledge representation
+                            from multimodal data captured in diverse environments.
+                            His research outcome has been recognized as ESI Highly Cited Paper (Top 1%).
+                            Additionally,
+                            he serves as an evaluator for the <a href="https://ellis.eu/">ELLIS PhD Program</a>.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ============================ Recent Publications ======================== -->
+
+        <div class="page-header">
+            <h3>Selected Publications [ <a class="" href="publications.html">Full List</a> ] </h3>
+        </div>
+
+        <div id="latest_publications" class="container-fluid content_width_range">
+            <ol>
+                <li>
+                    Feature-Distribution Perturbation and Calibration for Generalized Person
+                    ReID<br>
+                    <strong>Qilei Li</strong>, Jiabo Huang, Jian Hu, Shaogang Gong<br>
+                    In Proc. <em>IEEE International Conference on Acoustics, Speech, and
+                        Signal Processing</em>,
+                    <strong>(ICASSP)</strong>,
+                    Korea, April 2024,
+                    <a style="color: red;"> <strong>
+                            Oral</strong> </a>
+                    <br>
+                    [ <a href='papers/LiEtAl_ICASSP2024.pdf'>PDF</a> ]
+                    [ <a href='https://ieeexplore.ieee.org/document/10448017'>Link</a> ]
+                </li>
+                <li>
+                    Mitigate Domain Shift by Primary-Auxiliary Objectives Association for
+                    Generalizing Person ReID
+                    <br>
+                    <strong>Qilei Li</strong>, Shaogang Gong<br>
+                    In Proc. <em>IEEE/CVF Winter Conference on Applications of Computer Vision</em>,
+                    <strong>(WACV)</strong>,
+                    United States, January 2024,
+                    <!-- <a style="color: red;"> <strong>
+                            New</strong> </a> -->
+                    <br>
+
+                    [ <a
+                        href='https://openaccess.thecvf.com/content/WACV2024/papers/Li_Mitigate_Domain_Shift_by_Primary-Auxiliary_Objectives_Association_for_Generalizing_Person_WACV_2024_paper.pdf'>PDF</a>
+                    ]
+                    [ <a
+                        href='https://openaccess.thecvf.com/content/WACV2024/html/Li_Mitigate_Domain_Shift_by_Primary-Auxiliary_Objectives_Association_for_Generalizing_Person_WACV_2024_paper.html'>Link</a>
+                    ]
+                </li>
+                <li>
+                    Towards multimodal disinformation detection by Vision-language Knowledge
+                    Interaction<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai, Jinyong
+                    Chen, Gwanggil Jeon<br>
+                    <em>Information Fusion</em>, September 2023, <a style="color: red;"> <strong>
+                            IF=14.7</strong> </a>
+                    <br>
+                    [ <a href='papers/LiEtAl_IF2023.pdf'>PDF</a> ]
+                    [ <a href='https://www.sciencedirect.com/science/article/pii/S1566253523003536'>Link</a> ]
+                </li>
+
+                <li>
+                    Generic Representation Learning for Vehicle Association Guided by Foundational
+                    Models<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Jinyong Chen, Wenzhe Zhai, Gwanggil
+                    Jeon, Ahmed M. Abdelmoniem<br>
+                    <em>IEEE Transactions on Intelligent Transportation System</em>, March 2025
+                    <br>
+                    [ <a href='papers/LiEtAl_TITS2025.pdf'>PDF</a> ]
+                    [ <a href='https://ieeexplore.ieee.org/document/10914003'>Link</a>
+                    ]
+                </li>
+                    
+                <li>
+                    Defending Deepfakes by Saliency-Aware Attack<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai<br>
+                    <em>IEEE Transactions on Computational Social Systems</em>, May 2023
+                    <br>
+                    [ <a href='papers/LiEtAl_ITCSS2023.pdf'>PDF</a> ]
+                    [ <a href='https://ieeexplore.ieee.org/abstract/document/10121622'>Link</a> ]
+                </li>
+
+            </ol>
+        </div>
+
+        <!-- ============================ Workshops ======================== -->
+        <div class="page-header">
+            <h3>Workshop</h3>
+        </div>
+        <div id="latest_publications" class="container-fluid content_width_range">
+            <ul>
+                <li>
+                    <a href="https://www.smc-iot.org/workshop-3/">Image processing and deep learning Technologies in
+                        Communication</a>,
+                    <br>
+                    International Conference on 6G Communication and Internet of Things Technology
+                    (<strong>6GIoTT</strong>),
+                    Fuzhou, China, Oct. 2022
+                    <br>
+                </li>
+
+                <li>
+                    <a href="http://www.feict.net/workshop-2022/">Computer Vision Technologies for Smart City
+                        Applications</a>,
+                    <br>
+                    Frontiers of Electronics, Information and Computation Technologies (<strong>ICFEICT</strong>),
+                    Yangzhou, China, Apr. 2024
+                    <br>
+                </li>
+                <li>
+                    <a href="http://www.iccbdai.org/workshop2024/index.html">Advancing AIGC: Faithful Generation and
+                        Trustworthy Identification</a>,
+                    <br>
+                    International conference on Computer, Big Data and Artificial Intelligence
+                    (<strong>ICCBD+AI</strong>),
+                    Jingdezhen, China, Nov. 2024
+                    <br>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="page-header">
+            <h3>Work Experience</h3>
+        </div>
+
+        <div id="experience" class="container-fluid content_width_range">
+            <ul>
+                <li>
+                    <strong>Research Assistant (Full-time)</strong><br>
+                    <a href="https://nus.edu.sg/">National University of Singapore (Singapore)</a>,
+                    Aug. 2020 – Oct. 2020<br>
+                    Worked on real-world image super-resolution with deep learning.
+                </li>
+                <li>
+                    <strong>Deep Learning Algorithm Engineer (Full-time)</strong><br>
+                    <a href="https://uk.linkedin.com/company/vision-semantics-limited/">Vision Semantics Limited
+                        (London, UK)</a>,
+                    July 2022 – Oct. 2022,<br>
+                    Improved person ReID framework using foundation models (ViT, CLIP, BLIP) for accurate retrieval of
+                    pedestrians.
+                </li>
+                <li>
+                    <strong>Analysis Algorithm Engineer (Part-time, 40% Full time)</strong><br>
+                    <a href="https://www.veritone.com/applications/tracker/">Veritone Limited (London branch, US)</a>,
+                    Oct. 2022 – April 2024<br>
+                    Implementing large-scale models for object detection, applying domain generalization
+                    techniques to enhance real-world performance.
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-header">
+            <h3>Patents</h3>
+        </div>
+        <div id="Patent" class="container-fluid content_width_range">
+            <ul class="patent-list">
+                <li>
+                    <strong>2020.08.03 - A sparse coding based infrared and visible image fusion method</strong><br>
+                    <em>First applicant</em>,
+                    <em>Substantive examination stage</em>,
+                    <em>CN114066786A</em><br>
+                    The invention discloses a fusion method of infrared image and visible image, which produces
+                    excellent results with rich details and gradient information.
+                </li>
+                <li>
+                    <strong>2019.09.16 - An image super-resolution reconstruction method based on gated multi-feedback
+                        networks</strong><br>
+                    <em>First applicant</em>,
+                    <em>Substantive examination stage</em>,
+                    <em>CN112508779A</em><br>
+                    The invention presents an image super-resolution reconstruction method using gated multi-feedback
+                    networks to enhance image quality.
+                </li>
+                <li>
+                    <strong>2019.09.12 - Infrared and visible image fusion method based on coupling generation
+                        adversarial network</strong><br>
+                    <em>First applicant</em>,
+                    <em>Substantive examination stage</em>,
+                    <em>CN112488970A</em><br>
+                    The invention introduces an infrared and visible image fusion method using a coupling generation
+                    adversarial network to maintain thermal radiation and texture information effectively.
+                </li>
+                <li>
+                    <strong>2019.09.16 - A multi-focus image fusion method based on sparse representation and guided
+                        filtering</strong><br>
+                    <em>Second applicant</em>,
+                    <em>Substantive examination stage</em>,
+                    <em>CN112508828A</em><br>
+                    The invention discloses a multi-focus image fusion method, which effectively fuses pictures with
+                    different focuses, displaying more information while maintaining sharpness and resolution.
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-header"> </div>
+
+        <div style="width: 20%; margin: 0 auto;">
+            <script type="text/javascript" id="mapmyvisitors"
+                src="//mapmyvisitors.com/map.js?d=OV-IJK_s6pYeenujbUNFxhjqql5f6WNp2mPSe3vxTa4&cl=ffffff&w=a"></script>
+        </div>
+
+
+        <script src="./js/jquery.js"></script>
+        <script src="./js/bootstrap-transition.js"></script>
+        <script src="./js/bootstrap-alert.js"></script>
+        <script src="./js/bootstrap-modal.js"></script>
+        <script src="./js/bootstrap-dropdown.js"></script>
+        <script src="./js/bootstrap-scrollspy.js"></script>
+        <script src="./js/bootstrap-tab.js"></script>
+        <script src="./js/bootstrap-tooltip.js"></script>
+        <script src="./js/bootstrap-popover.js"></script>
+        <script src="./js/bootstrap-button.js"></script>
+        <script src="./js/bootstrap-collapse.js"></script>
+        <script src="./js/bootstrap-carousel.js"></script>
+        <script src="./js/bootstrap-typeahead.js"></script>
+
+</body>
+
 </html>
