@@ -65,8 +65,11 @@
                     <ul class="">
                         <div style="text-align: center;">
                             <img style="width: 100%;" src="./images/qilei.jpg" alt="Qilei Li" />
-                            <h3>Qilei Li</h3>
-                            <p><a href="mailto:qilei@ieee.org">qilei@ieee.org</a></p>
+                            <h3>Qilei Li (李 启磊)</h3>
+                            <p><a href="#" onclick="revealEmail(); return false;" style="text-decoration: none; color: inherit;">Click to reveal email</a></p>
+                            <div id="email-container" style="display: none;">
+                                <p id="email-display"></p>
+                            </div>
                         </div>
                     </ul>
                     <div style="text-align: center;">
@@ -86,25 +89,34 @@
                     <div class="aboutme">
 
                         <p>
-                            Qilei (Kevin) Li is a post-doc researcher
-                            at <a href="https://sayed-sys-lab.github.io/">SAYED Systems Group</a>,
-                            working with <a href="https://eecs.qmul.ac.uk/~ahmed/">Dr. Ahmed Sayed</a>.
-                            He has a Ph.D. in Computer Science from <a href="http://eecs.qmul.ac.uk/">Queen Mary
-                                University of London</a>,
+                            Qilei Li is an Associate Professor
+                            at <a href="https://foaie.ccnu.edu.cn/Home/About_FOAIE.htm#">Faculty of Artificial Intelligence in Education</a>,
+                            <a href="https://www.ccnu.edu.cn/">Central China Normal University</a>,
+                            Wuhan, China.
+                            He is also affiliated with the <a href="https://nerc-ebd.ccnu.edu.cn/">National Engineering Laboratory for Educational Big Data</a>
+                            at Central China Normal University.
+                            He received his Ph.D. in Computer Science from <a href="http://eecs.qmul.ac.uk/">Queen Mary
+                                University of London</a> in 2024,
                             supervised by <a href="http://www.eecs.qmul.ac.uk/~sgg/">Prof. Shaogang (Sean) Gong
                                 FREng</a>.
+                            From 2024 to 2025, he was a Postdoctoral Research Assistants
+                            at <a href="https://sayed-sys-lab.github.io/">SAYED Systems Group</a>,
+                            working with <a href="https://eecs.qmul.ac.uk/~ahmed/">Dr. Ahmed Sayed</a>.
                             He previously earned an M.S. degree from Sichuan University in 2020.
-                            From June 2022 to April 2024,
+                            <!-- From June 2022 to April 2024,
                             he worked as a machine learning scientist at <a href="https://www.veritone.com/">Veritone
                                 Inc</a>,
                             where he focused on developing a scalable <a
                                 href="https://www.veritone.com/applications/tracker/">person search framework</a>
                             for retrieving individuals at different locations and times,
-                            as captured by various cameras.
-                            His current research interests lie in <a href="https://kuber.org.uk/">privacy-aware distributed machine
-                                learning</a>,
+                            as captured by various cameras. -->
+                            His current research interests lie in 
+                                multimodal large language models (LLMs) for education,
                             with a particular emphasis on learning domain-invariant knowledge representation
-                            from multimodal data captured in diverse environments.
+                            <a href="https://kuber.org.uk/"> with privacy-aware distributed machine
+                                learning</a>
+                            from multimodal data captured in diverse environments and developing AI systems
+                            tailored for educational applications.
                             His research outcome has been recognized as ESI Highly Cited Paper (Top 1%).
                             Additionally,
                             he serves as an evaluator for the <a href="https://ellis.eu/">ELLIS PhD Program</a>.
@@ -126,6 +138,38 @@
 
         <div id="latest_publications" class="container-fluid content_width_range">
             <ol>
+                <li>
+                    Towards multimodal disinformation detection by Vision-language Knowledge
+                    Interaction<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai, Jinyong
+                    Chen, Gwanggil Jeon<br>
+                    <em>Information Fusion</em>, September 2023, <a style="color: red;"> <strong>
+                            IF=14.7</strong> </a>
+                    <br>
+                    [ <a href='papers/LiEtAl_IF2023.pdf'>PDF</a> ]
+                    [ <a href='https://www.sciencedirect.com/science/article/pii/S1566253523003536'>Link</a> ]
+                </li>
+
+                <li>
+                    Generic Representation Learning for Vehicle Association Guided by Foundational
+                    Models<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Jinyong Chen, Wenzhe Zhai, Gwanggil
+                    Jeon, Ahmed M. Abdelmoniem<br>
+                    <em>IEEE Transactions on Intelligent Transportation System</em>, March 2025
+                    <br>
+                    [ <a href='papers/LiEtAl_TITS2025.pdf'>PDF</a> ]
+                    [ <a href='https://ieeexplore.ieee.org/document/10914003'>Link</a>
+                    ]
+                </li>
+                    
+                <li>
+                    Defending Deepfakes by Saliency-Aware Attack<br>
+                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai<br>
+                    <em>IEEE Transactions on Computational Social Systems</em>, May 2023
+                    <br>
+                    [ <a href='papers/LiEtAl_ITCSS2023.pdf'>PDF</a> ]
+                    [ <a href='https://ieeexplore.ieee.org/abstract/document/10121622'>Link</a> ]
+                </li>
                 <li>
                     Feature-Distribution Perturbation and Calibration for Generalized Person
                     ReID<br>
@@ -158,38 +202,6 @@
                     [ <a
                         href='https://openaccess.thecvf.com/content/WACV2024/html/Li_Mitigate_Domain_Shift_by_Primary-Auxiliary_Objectives_Association_for_Generalizing_Person_WACV_2024_paper.html'>Link</a>
                     ]
-                </li>
-                <li>
-                    Towards multimodal disinformation detection by Vision-language Knowledge
-                    Interaction<br>
-                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai, Jinyong
-                    Chen, Gwanggil Jeon<br>
-                    <em>Information Fusion</em>, September 2023, <a style="color: red;"> <strong>
-                            IF=14.7</strong> </a>
-                    <br>
-                    [ <a href='papers/LiEtAl_IF2023.pdf'>PDF</a> ]
-                    [ <a href='https://www.sciencedirect.com/science/article/pii/S1566253523003536'>Link</a> ]
-                </li>
-
-                <li>
-                    Generic Representation Learning for Vehicle Association Guided by Foundational
-                    Models<br>
-                    <strong>Qilei Li</strong>, Mingliang Gao, Jinyong Chen, Wenzhe Zhai, Gwanggil
-                    Jeon, Ahmed M. Abdelmoniem<br>
-                    <em>IEEE Transactions on Intelligent Transportation System</em>, March 2025
-                    <br>
-                    [ <a href='papers/LiEtAl_TITS2025.pdf'>PDF</a> ]
-                    [ <a href='https://ieeexplore.ieee.org/document/10914003'>Link</a>
-                    ]
-                </li>
-                    
-                <li>
-                    Defending Deepfakes by Saliency-Aware Attack<br>
-                    <strong>Qilei Li</strong>, Mingliang Gao, Guisheng Zhang, Wenzhe Zhai<br>
-                    <em>IEEE Transactions on Computational Social Systems</em>, May 2023
-                    <br>
-                    [ <a href='papers/LiEtAl_ITCSS2023.pdf'>PDF</a> ]
-                    [ <a href='https://ieeexplore.ieee.org/abstract/document/10121622'>Link</a> ]
                 </li>
 
             </ol>
@@ -262,7 +274,7 @@
             </ul>
         </div>
 
-        <div class="page-header">
+        <!-- <div class="page-header">
             <h3>Patents</h3>
         </div>
         <div id="Patent" class="container-fluid content_width_range">
@@ -303,7 +315,7 @@
                     different focuses, displaying more information while maintaining sharpness and resolution.
                 </li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="page-header"> </div>
 
@@ -326,6 +338,16 @@
         <script src="./js/bootstrap-collapse.js"></script>
         <script src="./js/bootstrap-carousel.js"></script>
         <script src="./js/bootstrap-typeahead.js"></script>
+        <script>
+            function revealEmail() {
+                // Email address obfuscated to prevent bot scraping
+                var parts = ['qilei.li', '@', 'ccnu.edu.cn'];
+                var email = parts.join('');
+                var emailLink = '<a href="mailto:' + email + '">' + email + '</a>';
+                document.getElementById("email-display").innerHTML = emailLink;
+                document.getElementById("email-container").style.display = "block";
+            }
+        </script>
 
 </body>
 
